@@ -51,8 +51,8 @@ export default {
             imgHover: '/src/assets/socks_green.jpeg',
             details: ["70% cotton", "20% poluster", "10% Nylon", "Super Soft", "Regular length"],
             variants: [
-                { id: 2234, color: '#288f5a', image: '/src/assets/socks_green.jpeg', quantity: 5 },
-                { id: 2235, color: '#1b2e47', image: '/src/assets/socks_blue.jpeg', quantity: 0 },
+                { id: 2234, color: '#288f5a', image: '../images/socks_green.jpeg', quantity: 5 },
+                { id: 2235, color: '#1b2e47', image: '../images/socks_blue.jpeg', quantity: 0 },
             ],
         }
     },
