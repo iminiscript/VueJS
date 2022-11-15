@@ -14,7 +14,7 @@
     </div>
      <div class="header__right">
         <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
+        <!-- <RouterLink to="/about">About</RouterLink> -->
         <RouterLink to="/product">Product</RouterLink>
       </div>
   </header>
@@ -42,6 +42,8 @@ header {
 
 .header__right a {
   margin-left: 2rem;
+  font-size: 24px;
+  font-weight: 800;
 }
 .header__left {
   display: flex;
@@ -79,7 +81,7 @@ nav a:first-of-type {
 @media (min-width: 1024px) {
   header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 
   .logo {

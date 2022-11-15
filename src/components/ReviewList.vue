@@ -13,16 +13,16 @@
     </div>
 </template>
 
-<script>
-    export default {
-        props: {
-            reviews: {
-                type: Array,
-                default: []
-            },
-        },
-    }
+<script setup>
+    defineProps({
+        reviews: {
+            type: Array,
+            required: true,
+            default: []
+        }
+    })
 </script>
+
 
 <style  scoped>
 .c-productReviews {
