@@ -83,6 +83,19 @@ export default {
         }
 
     },
+
+   watch: {
+       cartItem(newValue, oldValue) {
+           console.log("🚀 ~ file: Product.vue ~ line 89 ~ cartItem ~ newValue", newValue)
+           console.log("🚀 ~ file: Product.vue ~ line 89 ~ cartItem ~ oldValue", oldValue)
+           
+       },
+
+       title(newValue, oldValue) {
+           console.log("🚀 ~ file: Product.vue ~ line 95 ~ title ~ newValue", newValue)
+           
+       }
+   },
 }
 
 </script>

@@ -14,8 +14,8 @@
     </div>
      <div class="header__right">
         <RouterLink to="/">Home</RouterLink>
-        <!-- <RouterLink to="/about">About</RouterLink> -->
-        <RouterLink to="/product">Product</RouterLink>
+        <RouterLink to="/nov_16">Nov 16 </RouterLink> 
+        <RouterLink to="/nov_14_15">Nov 14-15</RouterLink>
       </div>
   </header>
 
