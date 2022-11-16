@@ -20,6 +20,7 @@
                 <span>{{ index + 1}} {{ goal }}</span> 
                 <span @click="completeGoal(id)"> Complete Goal </span> 
             </li>
+            <h2>Life Cycle Hook - {{ hookData }} </h2>
         </ul>
     </div>
 </template>
@@ -34,6 +35,7 @@ export default {
         return {
             enterGoalsValue: "",
             goals: [],
+            hookData: ''
         }
     },
     methods: {
@@ -48,6 +50,28 @@ export default {
             this.goals.splice(idx, 1);
         }
 
+    },
+
+    beforeCreate () {
+        console.log('before Create');
+    },
+    created () {
+        console.log('Created Hook');
+    },
+    beforeMount () {
+        console.log('before Mount');
+    },
+
+    mounted () {
+        console.log('Mounted');
+        this.hookData = 'Not Updated';
+    },
+    beforeUpdate () {
+        console.log('Before Update');
+    },
+    updated () {
+        console.log('updated');
+        this.hookData = Math.floor(Math.random() * (10 - 5) ) + 5;
     },
 }
 </script>
