@@ -10,27 +10,27 @@ import DocumentationIcon from './icons/IconDocumentation.vue'
     </template>
     <template #heading>Fundamental Topics</template>
    <ul>
-    <li>Vue CLI</li>
-    <li>Componets
+    <li><strike> Vue CLI</strike></li>
+    <li><strike> Componets</strike>
       <ul>
-        <li>Single File Component</li>
-        <li>Component Registratoion</li>
-        <li>Props</li>
+        <li><strike>Single File Component</strike></li>
+        <li><strike>Component Registratoion</strike></li>
+        <li><strike>Props</strike></li>
         <li>Events</li>
         <li>Attributes</li>
       </ul>
     </li>
     <li>Templates</li>
-    <li>Directives</li>
+    <li><strike>Directives</strike></li>
     <li>API Styles
       <ul>
-        <li>Options API</li>
+        <li><strike>Options API</strike></li>
         <li>Composition API -  Basic</li>
       </ul>
     </li>
     <li>App Configurations</li>
-    <li>Rendering List</li>
-    <li>Conditional Rendering</li>
+    <li><strike>Rendering List</strike></li>
+    <li><strike> Conditional Rendering</strike></li>
 
    </ul>
     

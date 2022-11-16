@@ -20,7 +20,7 @@
                 <span>{{ index + 1}} {{ goal }}</span> 
                 <span @click="completeGoal(id)"> Complete Goal </span> 
             </li>
-            <h2>Life Cycle Hook - {{ hookData }} </h2>
+            <h2>Life Cycle Hook Fired on Update App - {{ hookData }} </h2>
         </ul>
     </div>
 </template>
