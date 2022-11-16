@@ -27,6 +27,7 @@
 
 <script>
 export default {
+    name: 'Goals',
     props: {
         title: String,
         desc: String,

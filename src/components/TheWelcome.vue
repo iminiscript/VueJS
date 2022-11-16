@@ -11,7 +11,7 @@ import DocumentationIcon from './icons/IconDocumentation.vue'
     <template #heading>Fundamental Topics</template>
    <ul>
     <li><strike> Vue CLI</strike></li>
-    <li><strike> Componets</strike>
+    <li>Componets
       <ul>
         <li><strike>Single File Component</strike></li>
         <li><strike>Component Registratoion</strike></li>

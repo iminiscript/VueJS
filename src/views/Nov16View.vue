@@ -9,6 +9,10 @@
   <Goals title="Please add Goals Here" desc="This is all about V-For" />
 </template>
 
+
+
+
+
 <style>
 h2 {
   text-align: center;

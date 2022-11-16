@@ -34,6 +34,7 @@
 
 <script>
 export default {
+    name: 'Dynamic Classess',
     data() {
         return {
             boxA: false,
