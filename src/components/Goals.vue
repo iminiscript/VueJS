@@ -17,7 +17,7 @@
         <ul>
             <li :key="goal" 
                 v-for="(goal, index) in goals">
-                <span>{{ index + 1}} {{ goal }} <input type="text"> </span> 
+                <span>{{ index + 1}} {{ goal }}</span> 
                 <span @click="completeGoal(id)"> Complete Goal </span> 
             </li>
         </ul>
