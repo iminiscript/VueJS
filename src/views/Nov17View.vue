@@ -4,7 +4,7 @@
 
 <template>
     <div>
-        <CompositionApi msg="This is Props with Compo API" />
+        <CompositionApi msg="This Prop is coming via Composition API" />
     </div>
 </template>
 
