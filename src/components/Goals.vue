@@ -89,13 +89,6 @@ input {
     min-width: 300px;
     font-size: 16px;
 }
-
-button {
-    padding: 12px;
-    background-color: chartreuse;
-    border: 1px solid chartreuse;
-    margin-left: 20px;
-}
 ul {
     border-bottom: 2px dashed red;
     margin-bottom: 30px;

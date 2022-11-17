@@ -24,7 +24,7 @@
 
 </template>
 
-<style scoped>
+<style>
 header {
   line-height: 1.5;
   padding: 2rem;
@@ -103,5 +103,16 @@ nav a:first-of-type {
     padding: 1rem 0;
     margin-top: 1rem;
   }
+}
+
+button {
+    padding: 12px;
+    background-color: chartreuse;
+    border: 1px solid chartreuse;
+    margin-left: 20px;
+    cursor: pointer;
+}
+button:first-of-type {
+  margin-left: 0;
 }
 </style>
