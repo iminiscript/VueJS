@@ -18,6 +18,7 @@
         <RouterLink to="/nov_16">Nov 16 </RouterLink> 
         <RouterLink to="/nov_17">Nov 17</RouterLink>
         <RouterLink to="/nov_18">Nov 18</RouterLink>
+        <RouterLink to="/nov_21">Nov 21</RouterLink>
       </div>
   </header>
 
@@ -43,8 +44,8 @@ header {
 }
 
 .header__right a {
-  margin-left: 2rem;
-  font-size: 24px;
+  margin-left: 1rem;
+  font-size: 1rem;
   font-weight: 800;
 }
 .header__left {
@@ -82,8 +83,8 @@ nav a:first-of-type {
 
 @media (min-width: 1024px) {
   header {
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 
   .logo {

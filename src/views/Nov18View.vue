@@ -48,6 +48,15 @@ const items = ref( [
             id:3, 
             label:"Bottom", 
             cat:"Bottom",
+        },
+        {   
+            title: 'Prop 4',
+            subTitle: 'Google',
+            firstName: 'Propww',
+            lastName: '',
+            id:4, 
+            label:"Bottom", 
+            cat:"Bottom",
         }
     ])
 

@@ -1,6 +1,13 @@
 <script setup>
+  import { onMounted } from 'vue';
   import DynamicClass from '@/components/DynamicClass.vue'
   import Goals from '@/components/Goals.vue';
+
+  onMounted(() => {
+    console.log('Mounted');
+  }),
+
+
 </script>
 
 <template>

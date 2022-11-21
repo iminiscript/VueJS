@@ -6,6 +6,10 @@ import './assets/main.css'
 
 const app = createApp(App)
 
+app.config.errorHandler = (err) => {
+    console.log(err)
+  }
+
 app.use(router)
 
 app.mount('#app')
