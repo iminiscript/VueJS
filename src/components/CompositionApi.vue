@@ -1,10 +1,29 @@
 
 <script setup>
+    // Import ref - Data, Computed - Computed , Reactive - Objects
     import { ref, computed, reactive } from 'vue'
+    // Props 
     defineProps({
-        msg: String
+        msg: {
+            type: String,
+            required: true,
+            default: 'This is Default Value'
+        } 
+
+    /** 
+        Supported Prop Values 
+        String
+        Number
+        Boolean
+        Array
+        Object
+        Date
+        Function
+        Symbol
+     */
     })
 
+    // Data 
     const count = ref({key: 'This is String', key2: 'This is in Object form'});
 
     const items = ref( {
@@ -36,6 +55,7 @@
     const edit = ref(false);
     // const check = ref(false);
 
+    // Methods 
     const addTask = () => {
         const todoItem = task.value;
         const priority = newItemHighPriority.value;
@@ -76,6 +96,7 @@
         todo.check = !todo.check;
     }
 
+    // Computed properties 
     const characterCount = computed(() => {
         return task.value.length;
     });

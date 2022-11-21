@@ -1,5 +1,22 @@
 <script setup>
     import CompositionApi from '@/components/CompositionApi.vue';
+
+    // const item = ref([friends: {
+    //         {
+    //             name: 'Maninder',
+    //             age: 32,
+    //             number: 12345,
+    //             email: 'test@test.com'
+    //         }, 
+    //         {
+    //             name: 'sdsdd',
+    //             age: 344,
+    //             number:333,
+    //             email: 'tasst@test.com'
+    //         }
+    //     }
+    // )]
+    
 </script>
 
 <template>
@@ -9,6 +26,6 @@
 </template>
 
 
-<style lang="scss" scoped>
+<style scoped>
 
 </style>

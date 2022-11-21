@@ -17,6 +17,7 @@
         <RouterLink to="/nov_14_15">Nov 14-15</RouterLink>
         <RouterLink to="/nov_16">Nov 16 </RouterLink> 
         <RouterLink to="/nov_17">Nov 17</RouterLink>
+        <RouterLink to="/nov_18">Nov 18</RouterLink>
       </div>
   </header>
 
