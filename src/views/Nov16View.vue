@@ -5,7 +5,7 @@
 
   onMounted(() => {
     console.log('Mounted');
-  }),
+  })
 
 
 </script>
