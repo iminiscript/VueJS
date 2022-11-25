@@ -6,8 +6,7 @@
 
 <template>
   <header>
-    
-
+  
     <div class="header__left">
       <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
       <HelloWorld msg="VueJS Practice" />
@@ -46,7 +45,11 @@ header {
 .header__right a {
   margin-left: 1rem;
   font-size: 1rem;
+  font-weight: 400;
+}
+.header__right a.active {
   font-weight: 800;
+  text-decoration: underline;
 }
 .header__left {
   display: flex;
