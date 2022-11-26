@@ -2,9 +2,11 @@
   import { RouterLink, RouterView } from 'vue-router' 
   import HelloWorld from './components/HelloWorld.vue'
   import HomeView from './views/HomeView.vue'
+
 </script>
 
 <template>
+  
   <header>
   
     <div class="header__left">
@@ -13,6 +15,7 @@
     </div>
      <div class="header__right">
         <RouterLink to="/">Home</RouterLink>
+        <RouterLink to="/store">Store</RouterLink>
         <RouterLink to="/nov_14_15">Nov 14-15</RouterLink>
         <RouterLink to="/nov_16">Nov 16 </RouterLink> 
         <RouterLink to="/nov_17">Nov 17</RouterLink>

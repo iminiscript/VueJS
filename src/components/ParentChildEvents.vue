@@ -3,8 +3,9 @@
         <div class="child__left">
             <div>
                 <h1>Hello {{ fullName }}</h1>
-                <button @click="sendEvents">Click Me</button>
+                <button @click="sendEvents">Click Me Child events</button>
             </div>
+            
             <div>
                 <h2>{{ watchConsole }}</h2>
                 <h2>{{ watchSingleLabel }}</h2>
@@ -50,7 +51,10 @@ import { ref, computed , watch, reactive } from 'vue'
         fullName: String
     });
 
-    const emit = defineEmits(['sentEventToParent'])
+    const emit = defineEmits([
+                    'sentEventToParent',
+                     
+                ])
 
     // setup (context) {
         
@@ -89,10 +93,6 @@ import { ref, computed , watch, reactive } from 'vue'
             console.log("🚀 ~ prevOne", prevOne);
             
         });
-
-        
-        
-
         function sendEvents() {
             emit('sentEventToParent');
             const test = document.querySelector('h1');
