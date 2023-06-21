@@ -8,8 +8,11 @@
     // Props 
     defineProps({
         msg: {
+
             type: String,
+
             required: true,
+            
             default: 'This is Default Value'
         } 
 
